@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd"
+         xmlns:ids="http://standards.buildingsmart.org/IDS">
+  <ids:info>
+    <ids:title>IDS_Garage</ids:title>
+    <ids:version>1.0</ids:version>
+    <ids:author>admin@datacat.local</ids:author>
+    <ids:date>2025-11-20</ids:date>
+  </ids:info>
+  <ids:specifications>
+    <ids:specification name="All IfcDoor should be classified as &quot;Tor außen&quot;" identifier="S1" ifcVersion="IFC2X3">
+      <ids:applicability maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name><ids:simpleValue>IFCDOOR</ids:simpleValue></ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:classification>
+          <ids:value>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Tor außen" />
+            </xs:restriction>
+          </ids:value>
+          <ids:system>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="DIN 276 CAFM-Connect" />
+            </xs:restriction>
+          </ids:system>
+        </ids:classification>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification name="The Project must be classified as DIN 276 CAFM-Connect" identifier="S2" ifcVersion="IFC2X3">
+      <ids:applicability maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name><ids:simpleValue>IFCCLASSIFICATION</ids:simpleValue></ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:attribute>
+          <ids:name><ids:simpleValue>Name</ids:simpleValue></ids:name>
+          <ids:value>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="DIN 276 CAFM-Connect" />
+            </xs:restriction>
+          </ids:value>
+        </ids:attribute>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification name="Alle IfcWindow müssen das PropertySet &quot;Fenster&quot; mit dem Attribut &quot;Schalldämmung&quot; und dem Wert &quot;true&quot; haben." identifier="S3" ifcVersion="IFC2X3">
+      <ids:applicability maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name><ids:simpleValue>IFCWINDOW</ids:simpleValue></ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:property cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Fenster</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Schalldämmung</ids:simpleValue>
+          </ids:baseName>
+          <ids:value>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="true" />
+            </xs:restriction>
+          </ids:value>
+        </ids:property>
+      </ids:requirements>
+    </ids:specification>
+  </ids:specifications>
+</ids:ids>
