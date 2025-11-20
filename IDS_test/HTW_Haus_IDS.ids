@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd"
+         xmlns:ids="http://standards.buildingsmart.org/IDS">
+  <ids:info>
+    <ids:title>HTW_Haus_IDS_s89383</ids:title>
+    <ids:version>1.0</ids:version>
+    <ids:author>student@htw-dresden.de</ids:author>
+    <ids:date>2025-11-17</ids:date>
+  </ids:info>
+  <ids:specifications>
+    <ids:specification name="Alle Bauteile müssen gemäß DIN 276 CAFM Connect klassifiziert sein." identifier="S1" ifcVersion="IFC4">
+      <ids:applicability maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name><ids:simpleValue>IFCCLASSIFICATION</ids:simpleValue></ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:attribute>
+          <ids:name><ids:simpleValue>Name</ids:simpleValue></ids:name>
+          <ids:value>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="DIN 276 CAFM-Connect" />
+            </xs:restriction>
+          </ids:value>
+        </ids:attribute>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification name="Alle Wände müssen nach DIN 276 CAFM Connect als Elementierte Außenwandkonstruktionen klassifiziert sein." identifier="S2" ifcVersion="IFC4">
+      <ids:applicability maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name><ids:simpleValue>IFCWALL</ids:simpleValue></ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:classification>
+          <ids:value>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Elementierte Außenwandkonstruktionen" />
+            </xs:restriction>
+          </ids:value>
+          <ids:system>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="DIN 276 CAFM-Connect" />
+            </xs:restriction>
+          </ids:system>
+        </ids:classification>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification name=" Alle Fenster müssen das PropertySet BIM_Pset_Fenster inklusive aller zugehörigen Merkmale und Werte enthalten." identifier="S3" ifcVersion="IFC4">
+      <ids:applicability maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name><ids:simpleValue>IFCWINDOW</ids:simpleValue></ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:property cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>BIM_Pset_Fenster</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Material</ids:simpleValue>
+          </ids:baseName>
+          <ids:value>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Aluminium" />
+              <xs:enumeration value="Holz" />
+              <xs:enumeration value="Sonstiges" />
+              <xs:enumeration value="Kunststoff" />
+            </xs:restriction>
+          </ids:value>
+        </ids:property>
+        <ids:property cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>BIM_Pset_Fenster</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Feuerwiderstandsklasse</ids:simpleValue>
+          </ids:baseName>
+          <ids:value>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="F 30" />
+              <xs:enumeration value="F 60" />
+              <xs:enumeration value="F 90" />
+            </xs:restriction>
+          </ids:value>
+        </ids:property>
+        <ids:property cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>BIM_Pset_Fenster</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Sicherheitsstufe</ids:simpleValue>
+          </ids:baseName>
+          <ids:value>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="RC2" />
+              <xs:enumeration value="RC3" />
+              <xs:enumeration value="RC4" />
+            </xs:restriction>
+          </ids:value>
+        </ids:property>
+        <ids:property cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>BIM_Pset_Fenster</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Typ</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:requirements>
+    </ids:specification>
+  </ids:specifications>
+</ids:ids>

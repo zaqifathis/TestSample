@@ -1,0 +1,968 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///C:/Users/dhoye396.DOM/AppData/Local/Temp/tmpykhjuoqr/HTWD_Haus_Psets_Fenster_s89383.ifc_HTW_Haus_IDS_s89383.ids.html
+Subject: 
+Date: Thu, 20 Nov 2025 11:25:22 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--g9647eA14elU8MQMMCV73pieQA8HxeglEvTgHs6rii----"
+
+
+------MultipartBoundary--g9647eA14elU8MQMMCV73pieQA8HxeglEvTgHs6rii----
+Content-Type: text/html
+Content-ID: <frame-ACA671DD5C0B569424C056D583F7BD71@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/dhoye396.DOM/AppData/Local/Temp/tmpykhjuoqr/HTWD_Haus_Psets_Fenster_s89383.ifc_HTW_Haus_IDS_s89383.ids.html
+
+<!--
+    IfcTester - IDS based model auditing
+    Copyright (C) 2022 Dion Moult <dion@thinkmoult.com>
+
+    This file is part of IfcTester.
+
+    IfcTester is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Lesser General Public License as publishe=
+d by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    IfcTester is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public Licens=
+e
+    along with IfcTester.  If not, see <http://www.gnu.org/licenses/>.
+--><!DOCTYPE html><html lang=3D""><head><meta http-equiv=3D"Content-Type" c=
+ontent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text=
+/css" href=3D"cid:css-e8b56805-9d2d-4acb-8b8f-db7befc54038@mhtml.blink" />
+   =20
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <meta name=3D"description" content=3D"foobaro">
+    <title></title>
+    <link href=3D"https://fonts.googleapis.com/css?family=3DComfortaa|Incon=
+solata|Open+Sans&amp;display=3Dswap" rel=3D"stylesheet">
+   =20
+</head>
+<body>
+    <header>
+        <h1>HTW_Haus_IDS_s89383</h1>
+        <p><strong>HTWD_Haus_Psets_Fenster_s89383.ifc<br>2025-11-20 10:25:2=
+0</strong></p>
+    </header>
+    <h2>Summary</h2>
+    <div class=3D"container">
+        <div class=3D"fail percent" style=3D"width: 75%;">75%</div>
+    </div>
+    <p>
+        <span class=3D"item fail">Fail</span>
+        <span class=3D"item">
+            Specifications passed: <strong>2</strong> / <strong>3</strong>
+        </span>
+        <span class=3D"item">
+            Requirements passed: <strong>5</strong> / <strong>6</strong>
+        </span>
+        <span class=3D"item">
+            Checks passed: <strong>30</strong> / <strong>40</strong>
+        </span>
+    </p>
+    <hr>
+    <section style=3D"clear: both; overflow: hidden;">
+        <div class=3D"info">
+            <h2>Alle Bauteile m=C3=BCssen gem=C3=A4=C3=9F DIN 276 CAFM Conn=
+ect klassifiziert sein.</h2>
+
+            <div class=3D"container">
+                <div class=3D"pass percent" style=3D"width: 100%;">100%</di=
+v>
+            </div>
+            <p>
+                <span class=3D"item pass">Pass</span>
+                <span class=3D"item">
+                    Checks passed: <strong>1</strong> / <strong>1</strong>
+                </span>
+                <span class=3D"item">
+                    Elements passed: <strong>1</strong> / <strong>1</strong=
+>
+                </span>
+            </p>
+        </div>
+        <div class=3D"results">
+            <p>
+                <strong>Applicability</strong>
+            </p>
+            <ul>
+                <li>All IFCCLASSIFICATION data</li>
+            </ul>
+            <p>
+                <strong>Requirements</strong>
+            </p>
+            <ol>
+                <li class=3D"pass">
+                    <details>
+                        <summary>
+                            The Name shall be {'pattern': 'DIN 276 CAFM-Con=
+nect'}
+                        </summary>
+=20
+                        <table class=3D"pass">
+                            <thead>
+                                <tr>
+                                    <th>Class</th>
+                                    <th>PredefinedType</th>
+                                    <th>Name</th>
+                                    <th>Description</th>
+                                    <th>GlobalId</th>
+                                    <th>Tag</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>IfcClassification</td>
+                                    <td>None</td>
+                                    <td>DIN 276 CAFM-Connect</td>
+                                    <td>None</td>
+                                    <td>None</td>
+                                    <td>None</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </details>
+                </li>
+            </ol>
+        </div>
+    </section>
+    <section style=3D"clear: both; overflow: hidden;">
+        <div class=3D"info">
+            <h2>Alle W=C3=A4nde m=C3=BCssen nach DIN 276 CAFM Connect als E=
+lementierte Au=C3=9Fenwandkonstruktionen klassifiziert sein.</h2>
+
+            <div class=3D"container">
+                <div class=3D"fail percent" style=3D"width: 9%;">9%</div>
+            </div>
+            <p>
+                <span class=3D"item fail">Fail</span>
+                <span class=3D"item">
+                    Checks passed: <strong>1</strong> / <strong>11</strong>
+                </span>
+                <span class=3D"item">
+                    Elements passed: <strong>1</strong> / <strong>11</stron=
+g>
+                </span>
+            </p>
+        </div>
+        <div class=3D"results">
+            <p>
+                <strong>Applicability</strong>
+            </p>
+            <ul>
+                <li>All IFCWALL data</li>
+            </ul>
+            <p>
+                <strong>Requirements</strong>
+            </p>
+            <ol>
+                <li class=3D"fail">
+                    <details>
+                        <summary>
+                            Shall have a {'pattern': 'DIN 276 CAFM-Connect'=
+} reference of {'enumeration': ['Elementierte Au=C3=9Fenwandkonstruktionen'=
+]}
+                        </summary>
+=20
+                        <table class=3D"pass">
+                            <thead>
+                                <tr>
+                                    <th>Class</th>
+                                    <th>PredefinedType</th>
+                                    <th>Name</th>
+                                    <th>Description</th>
+                                    <th>GlobalId</th>
+                                    <th>Tag</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>IfcWall</td>
+                                    <td>STANDARD</td>
+                                    <td>Basiswand:MW 36.5:389589</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyuk</td>
+                                    <td>389589</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class=3D"fail">
+                            <thead>
+                                <tr>
+                                    <th>Class</th>
+                                    <th>PredefinedType</th>
+                                    <th>Name</th>
+                                    <th>Description</th>
+                                    <th>Warning</th>
+                                    <th>GlobalId</th>
+                                    <th>Tag</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>IfcWall</td>
+                                    <td>STANDARD</td>
+                                    <td>Basiswand:MW 36.5:389453</td>
+                                    <td>None</td>
+                                    <td>The entity has no classification</t=
+d>
+                                    <td>1h$LaykqT6sQlV43ZEoyws</td>
+                                    <td>389453</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWall</td>
+                                    <td>STANDARD</td>
+                                    <td>Basiswand:MW 36.5:389513</td>
+                                    <td>None</td>
+                                    <td>The entity has no classification</t=
+d>
+                                    <td>1h$LaykqT6sQlV43ZEoyvo</td>
+                                    <td>389513</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWall</td>
+                                    <td>STANDARD</td>
+                                    <td>Basiswand:MW 36.5:389633</td>
+                                    <td>None</td>
+                                    <td>The entity has no classification</t=
+d>
+                                    <td>1h$LaykqT6sQlV43ZEoytw</td>
+                                    <td>389633</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWall</td>
+                                    <td>STANDARD</td>
+                                    <td>Basiswand:KS 11.5:391174</td>
+                                    <td>None</td>
+                                    <td>The entity has no classification</t=
+d>
+                                    <td>0d9wYnR31AYeYECPFGt54d</td>
+                                    <td>391174</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWall</td>
+                                    <td>STANDARD</td>
+                                    <td>Basiswand:KS 11.5:391281</td>
+                                    <td>None</td>
+                                    <td>The entity has no classification</t=
+d>
+                                    <td>0d9wYnR31AYeYECPFGt55G</td>
+                                    <td>391281</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWall</td>
+                                    <td>STANDARD</td>
+                                    <td>Basiswand:KS 11.5:391863</td>
+                                    <td>None</td>
+                                    <td>The entity has no classification</t=
+d>
+                                    <td>0d9wYnR31AYeYECPFGt5EM</td>
+                                    <td>391863</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWall</td>
+                                    <td>STANDARD</td>
+                                    <td>Basiswand:KS 11.5:391936</td>
+                                    <td>None</td>
+                                    <td>The entity has no classification</t=
+d>
+                                    <td>0d9wYnR31AYeYECPFGt58X</td>
+                                    <td>391936</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWall</td>
+                                    <td>STANDARD</td>
+                                    <td>Basiswand:KS 11.5:392456</td>
+                                    <td>None</td>
+                                    <td>The entity has no classification</t=
+d>
+                                    <td>0d9wYnR31AYeYECPFGt5Gf</td>
+                                    <td>392456</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWall</td>
+                                    <td>STANDARD</td>
+                                    <td>Basiswand:KS 11.5:392611</td>
+                                    <td>None</td>
+                                    <td>The entity has no classification</t=
+d>
+                                    <td>0d9wYnR31AYeYECPFGt5I2</td>
+                                    <td>392611</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWall</td>
+                                    <td>STANDARD</td>
+                                    <td>Basiswand:KS 11.5:393101</td>
+                                    <td>None</td>
+                                    <td>The entity has no classification</t=
+d>
+                                    <td>0d9wYnR31AYeYECPFGt5Qi</td>
+                                    <td>393101</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </details>
+                </li>
+            </ol>
+        </div>
+    </section>
+    <section style=3D"clear: both; overflow: hidden;">
+        <div class=3D"info">
+            <h2> Alle Fenster m=C3=BCssen das PropertySet BIM_Pset_Fenster =
+inklusive aller zugeh=C3=B6rigen Merkmale und Werte enthalten.</h2>
+
+            <div class=3D"container">
+                <div class=3D"pass percent" style=3D"width: 100%;">100%</di=
+v>
+            </div>
+            <p>
+                <span class=3D"item pass">Pass</span>
+                <span class=3D"item">
+                    Checks passed: <strong>28</strong> / <strong>28</strong=
+>
+                </span>
+                <span class=3D"item">
+                    Elements passed: <strong>7</strong> / <strong>7</strong=
+>
+                </span>
+            </p>
+        </div>
+        <div class=3D"results">
+            <p>
+                <strong>Applicability</strong>
+            </p>
+            <ul>
+                <li>All IFCWINDOW data</li>
+            </ul>
+            <p>
+                <strong>Requirements</strong>
+            </p>
+            <ol>
+                <li class=3D"pass">
+                    <details>
+                        <summary>
+                            Material data shall be {'enumeration': ['Alumin=
+ium', 'Holz', 'Sonstiges', 'Kunststoff']} and in the dataset BIM_Pset_Fenst=
+er
+                        </summary>
+=20
+                        <table class=3D"pass">
+                            <thead>
+                                <tr>
+                                    <th>Class</th>
+                                    <th>PredefinedType</th>
+                                    <th>Name</th>
+                                    <th>Description</th>
+                                    <th>GlobalId</th>
+                                    <th>Tag</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:389801</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyrI</td>
+                                    <td>389801</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:390452</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyhF</td>
+                                    <td>390452</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:390000</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyoB</td>
+                                    <td>390000</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:390569</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyfI</td>
+                                    <td>390569</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:390195</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyl8</td>
+                                    <td>390195</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:389869</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyqM</td>
+                                    <td>389869</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:390738</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoycf</td>
+                                    <td>390738</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </details>
+                </li>
+                <li class=3D"pass">
+                    <details>
+                        <summary>
+                            Feuerwiderstandsklasse data shall be {'enumerat=
+ion': ['F 30', 'F 60', 'F 90']} and in the dataset BIM_Pset_Fenster
+                        </summary>
+=20
+                        <table class=3D"pass">
+                            <thead>
+                                <tr>
+                                    <th>Class</th>
+                                    <th>PredefinedType</th>
+                                    <th>Name</th>
+                                    <th>Description</th>
+                                    <th>GlobalId</th>
+                                    <th>Tag</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:389801</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyrI</td>
+                                    <td>389801</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:390452</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyhF</td>
+                                    <td>390452</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:390000</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyoB</td>
+                                    <td>390000</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:390569</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyfI</td>
+                                    <td>390569</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:390195</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyl8</td>
+                                    <td>390195</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:389869</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyqM</td>
+                                    <td>389869</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:390738</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoycf</td>
+                                    <td>390738</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </details>
+                </li>
+                <li class=3D"pass">
+                    <details>
+                        <summary>
+                            Sicherheitsstufe data shall be {'enumeration': =
+['RC2', 'RC3', 'RC4']} and in the dataset BIM_Pset_Fenster
+                        </summary>
+=20
+                        <table class=3D"pass">
+                            <thead>
+                                <tr>
+                                    <th>Class</th>
+                                    <th>PredefinedType</th>
+                                    <th>Name</th>
+                                    <th>Description</th>
+                                    <th>GlobalId</th>
+                                    <th>Tag</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:389801</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyrI</td>
+                                    <td>389801</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:390452</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyhF</td>
+                                    <td>390452</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:390000</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyoB</td>
+                                    <td>390000</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:390569</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyfI</td>
+                                    <td>390569</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:390195</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyl8</td>
+                                    <td>390195</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:389869</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyqM</td>
+                                    <td>389869</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:390738</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoycf</td>
+                                    <td>390738</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </details>
+                </li>
+                <li class=3D"pass">
+                    <details>
+                        <summary>
+                            Typ data shall be provided in the dataset BIM_P=
+set_Fenster
+                        </summary>
+=20
+                        <table class=3D"pass">
+                            <thead>
+                                <tr>
+                                    <th>Class</th>
+                                    <th>PredefinedType</th>
+                                    <th>Name</th>
+                                    <th>Description</th>
+                                    <th>GlobalId</th>
+                                    <th>Tag</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:389801</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyrI</td>
+                                    <td>389801</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:390452</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyhF</td>
+                                    <td>390452</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:390000</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyoB</td>
+                                    <td>390000</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:390569</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyfI</td>
+                                    <td>390569</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:390195</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyl8</td>
+                                    <td>390195</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:389869</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoyqM</td>
+                                    <td>389869</td>
+                                </tr>
+                                <tr>
+                                    <td>IfcWindow</td>
+                                    <td>WINDOW</td>
+                                    <td>Fenster 2-flg - Anschlag:2.01 x 1.2=
+6:390738</td>
+                                    <td>None</td>
+                                    <td>1h$LaykqT6sQlV43ZEoycf</td>
+                                    <td>390738</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </details>
+                </li>
+            </ol>
+        </div>
+    </section>
+    <hr>
+    <footer>
+        <p>
+            Report by the <a href=3D"https://bonsaibim.org/">Bonsai</a> and=
+ <a href=3D"http://ifcopenshell.org/">IfcOpenShell</a>.
+        </p>
+    </footer>
+
+
+</body></html>
+------MultipartBoundary--g9647eA14elU8MQMMCV73pieQA8HxeglEvTgHs6rii----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css?family=Comfortaa|Inconsolata|Open+Sans&display=swap
+
+@charset "utf-8";
+
+@font-face { font-family: Comfortaa; font-style: normal; font-weight: 400; =
+font-display: swap; src: url("https://fonts.gstatic.com/s/comfortaa/v47/1Pt=
+_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMDr4fIA9c.woff2") format("woff2"); unicode-=
+range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2=
+F; }
+
+@font-face { font-family: Comfortaa; font-style: normal; font-weight: 400; =
+font-display: swap; src: url("https://fonts.gstatic.com/s/comfortaa/v47/1Pt=
+_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMDrcfIA9c.woff2") format("woff2"); unicode-=
+range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Comfortaa; font-style: normal; font-weight: 400; =
+font-display: swap; src: url("https://fonts.gstatic.com/s/comfortaa/v47/1Pt=
+_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMDrAfIA9c.woff2") format("woff2"); unicode-=
+range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: Comfortaa; font-style: normal; font-weight: 400; =
+font-display: swap; src: url("https://fonts.gstatic.com/s/comfortaa/v47/1Pt=
+_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMDrwfIA9c.woff2") format("woff2"); unicode-=
+range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+=
+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Comfortaa; font-style: normal; font-weight: 400; =
+font-display: swap; src: url("https://fonts.gstatic.com/s/comfortaa/v47/1Pt=
+_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMDr0fIA9c.woff2") format("woff2"); unicode-=
+range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308,=
+ U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-=
+20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Comfortaa; font-style: normal; font-weight: 400; =
+font-display: swap; src: url("https://fonts.gstatic.com/s/comfortaa/v47/1Pt=
+_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMDrMfIA.woff2") format("woff2"); unicode-ra=
+nge: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308=
+, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEF=
+F, U+FFFD; }
+
+@font-face { font-family: Inconsolata; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/inconsolata/v37/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp4=
+U8WRL2l2eY.woff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+=
+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, =
+U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Inconsolata; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/inconsolata/v37/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp4=
+U8WRP2l2eY.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+=
+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9=
+F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A7=
+20-A7FF; }
+
+@font-face { font-family: Inconsolata; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/inconsolata/v37/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp4=
+U8WR32lw.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, =
+U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U=
++2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4ta=
+VIGxA.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C8A, U+20B=
+4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4ka=
+VIGxA.woff2") format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, =
+U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4sa=
+VIGxA.woff2") format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4ja=
+VIGxA.woff2") format("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-3=
+8A, U+38C, U+38E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4ia=
+VIGxA.woff2") format("woff2"); unicode-range: U+307-308, U+590-5FF, U+200C-=
+2010, U+20AA, U+25CC, U+FB1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B5ca=
+VIGxA.woff2") format("woff2"); unicode-range: U+302-303, U+305, U+307-308, =
+U+310, U+312, U+315, U+31A, U+326-327, U+32C, U+32F-330, U+332-333, U+338, =
+U+33A, U+346, U+34D, U+391-3A1, U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3=
+F0-3F1, U+3F4-3F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047=
+, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20D=
+C, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F,=
+ U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213=
+-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, =
+U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25=
+B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27F=
+F, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U=
++1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B5Oa=
+VIGxA.woff2") format("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20D=
+D-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21=
+E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A=
+, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29E=
+B, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+1=
+01A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1=
+D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, =
+U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F39=
+3-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3C=
+E, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, =
+U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1=
+F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4B=
+B, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4E=
+A-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1=
+F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, =
+U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6B=
+A, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1=
+F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1=
+F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1=
+F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1=
+FA80-1FA89, U+1FA8F-1FAC6, U+1FACE-1FADC, U+1FADF-1FAE9, U+1FAF0-1FAF8, U+1=
+FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4va=
+VIGxA.woff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-1=
+29, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323=
+, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4ua=
+VIGxA.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2=
+CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+=
+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7=
+FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4ga=
+VI.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-=
+2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122,=
+ U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--g9647eA14elU8MQMMCV73pieQA8HxeglEvTgHs6rii----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-e8b56805-9d2d-4acb-8b8f-db7befc54038@mhtml.blink
+
+@charset "utf-8";
+
+:root { --green: #97cc64; --light-green: #b6cca1; --red: #fb5a3e; --light-r=
+ed: #fbb4a8; }
+
+body { font-family: Arial, sans-serif; padding: 10px 40px; }
+
+section { padding: 15px; border-radius: 5px; border: 1px solid rgb(238, 238=
+, 238); margin-bottom: 15px; }
+
+section > h2 { margin-top: 0px; }
+
+span.time { color: rgb(153, 153, 153); font-style: italic; float: right; }
+
+span.step-time { float: right; color: rgb(85, 85, 85); font-size: 0.8em; fo=
+nt-style: italic; }
+
+span.item { padding: 5px; border-radius: 5px; margin-right: 5px; border: 1p=
+x solid rgb(238, 238, 238); }
+
+span.item.pass, span.item.fail { color: rgb(255, 255, 255); font-weight: bo=
+ld; border: 0px; }
+
+p.fail { background-color: rgb(251, 90, 62); padding: 5px; border-radius: 5=
+px; color: rgb(255, 255, 255); }
+
+p.unspecified { background-color: rgb(153, 79, 0); padding: 5px; border-rad=
+ius: 5px; color: rgb(255, 255, 255); }
+
+p.skipped { background-color: rgb(139, 141, 143); padding: 5px; border-radi=
+us: 5px; color: rgb(255, 255, 255); }
+
+p.description { background-color: rgb(238, 238, 238); border-radius: 5px; p=
+adding: 20px; margin-left: auto; margin-right: auto; display: inline-block;=
+ font-weight: bold; }
+
+li { padding: 10px; font-family: monospace; border-radius: 5px; margin-bott=
+om: 5px; }
+
+li.pass { background-color: var(--light-green); color: rgb(51, 51, 51); }
+
+li.fail { background-color: var(--light-red); color: rgb(153, 0, 0); }
+
+li.unspecified { background-color: rgb(255, 211, 127); color: rgb(170, 51, =
+0); }
+
+li.skipped { background-color: rgb(245, 245, 245); color: rgb(51, 51, 51); =
+}
+
+li p { margin-bottom: 0px; }
+
+footer { color: rgb(153, 153, 153); font-size: 0.8em; }
+
+header { text-align: center; }
+
+hr { margin: 20px 0px; border-right: none; border-bottom: none; border-left=
+: none; border-image: initial; border-top: 1px solid rgb(204, 204, 204); }
+
+summary { display: flex; cursor: pointer; }
+
+summary::-webkit-details-marker { display: none; }
+
+* { box-sizing: border-box; }
+
+.container { width: 100%; background-color: rgb(221, 221, 221); border-radi=
+us: 5px; }
+
+.percent { text-align: left; padding-top: 5px; padding-left: 5px; padding-b=
+ottom: 5px; color: white; border-radius: 5px; white-space: nowrap; }
+
+.pass { background-color: var(--green); }
+
+.fail { background-color: var(--red); }
+
+table { width: 100%; border-spacing: 0px; border-radius: 5px; margin-top: 1=
+0px; }
+
+th, td { padding: 5px; color: rgb(0, 0, 0); }
+
+table.pass { border-bottom: 2px solid var(--green); }
+
+table.fail { border-bottom: 2px solid var(--red); }
+
+table thead > tr { font-weight: bold; color: rgb(0, 0, 0); }
+
+table.pass tbody tr { border-bottom: 1px solid var(--green); }
+
+table.fail tbody tr { border-bottom: 1px solid var(--red); }
+
+tbody tr:nth-child(2n+1) { background-color: rgba(1, 1, 1, 0.05); }
+
+tbody tr:nth-child(2n) { background-color: rgba(1, 1, 1, 0.1); }
+
+tbody tr:hover { background-color: rgba(0, 0, 0, 0); }
+
+div.info { float: left; width: 30%; }
+
+div.results { float: left; width: calc(70% - 20px); margin-left: 20px; padd=
+ing: 20px; border-radius: 5px; background-color: rgb(250, 250, 250); }
+------MultipartBoundary--g9647eA14elU8MQMMCV73pieQA8HxeglEvTgHs6rii------
